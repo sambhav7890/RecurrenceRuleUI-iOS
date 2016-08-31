@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RecurrenceRuleUI-iOS_Example' do
+  pod 'RecurrenceRuleUI-iOS', :path => '../'
+
+  target 'RecurrenceRuleUI-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
