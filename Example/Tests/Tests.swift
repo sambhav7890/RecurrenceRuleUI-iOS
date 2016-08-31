@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import RecurrenceRuleUI-iOS
+import RecurrenceRuleUI_iOS
 
 class Tests: XCTestCase {
     

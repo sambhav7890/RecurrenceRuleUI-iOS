@@ -1,5 +1,7 @@
 use_frameworks!
 
+source 'https://github.com/practo/practo-specs.git'
+
 target 'RecurrenceRuleUI-iOS_Example' do
   pod 'RecurrenceRuleUI-iOS', :path => '../'
 

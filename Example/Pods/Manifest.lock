@@ -1,0 +1,19 @@
+PODS:
+  - RecurrenceRule-iOS (0.0.1)
+  - RecurrenceRuleUI-iOS (0.1.0):
+    - RecurrenceRule-iOS
+
+DEPENDENCIES:
+  - RecurrenceRuleUI-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  RecurrenceRuleUI-iOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RecurrenceRule-iOS: 23c9affe0035c5054ef92c68c02e9d944e303c96
+  RecurrenceRuleUI-iOS: aadb6ba56d63f3a895363e46b5624cf84075253e
+
+PODFILE CHECKSUM: 79edae2b69bb9a59437c6f5dbc158e4830ce75dd
+
+COCOAPODS: 1.0.1

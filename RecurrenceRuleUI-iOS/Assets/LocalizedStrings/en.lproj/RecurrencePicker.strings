@@ -1,0 +1,46 @@
+/* 
+  RecurrencePicker.strings
+  RecurrencePicker
+
+  Created by Sambhav on 16/9/6.
+  Copyright © 2016 S. All rights reserved.
+*/
+
+"PickerFrequency.Daily" = "Daily";
+"PickerFrequency.Weekly" = "Weekly";
+"PickerFrequency.Monthly" = "Monthly";
+"frequency.yearly" = "Yearly";
+
+"PickerFrequencyUnit.Day" = "Day";
+"PickerFrequencyUnit.Week" = "Week";
+"PickerFrequencyUnit.Month" = "Month";
+"PickerFrequencyUnit.Year" = "Year";
+
+"PluralPickerFrequencyUnit.Day" = "days";
+"PluralPickerFrequencyUnit.Week" = "weeks";
+"PluralPickerFrequencyUnit.Month" = "months";
+"PluralPickerFrequencyUnit.Year" = "years";
+
+"PresetRecurrenceRuleText.Never" = "Never";
+"PresetRecurrenceRuleText.EveryDay" = "Every Day";
+"PresetRecurrenceRuleText.EveryWeek" = "Every Week";
+"PresetRecurrenceRuleText.EveryTwoWeeks" = "Every 2 Weeks";
+"PresetRecurrenceRuleText.EveryMonth" = "Every Month";
+"PresetRecurrenceRuleText.EveryYear" = "Every Year";
+"PresetRecurrenceRuleText.EveryWeekday" = "Every Weekday";
+
+"RecurrencePicker.Navigation.Title" = "Repeat";
+"RecurrencePicker.TextLabel.Custom" = "Custom";
+
+"PresetRecurrnece.TextLabel.Frequency" = "Frequency";
+"PresetRecurrnece.TextLabel.Interval" = "Every";
+
+"RecurrenceRuleText.BasicRecurrence" = "Event will occur every %@.";
+"RecurrenceRuleText.Element.On.Weekly" = "on";
+"RecurrenceRuleText.Element.On.Monthly" = "on the";
+"RecurrenceRuleText.Element.On.Yearly" = "in";
+"RecurrenceRuleText.Element.And" = "and";
+"RecurrenceRuleText.Element.Comma" = ",";
+"RecurrenceRuleText.Element.Day" = "";
+"RecurrenceRuleText.EveryWeekday" = "Event will occur every weekday.";
+"RecurrenceRuleText.ByWeekdaysOrMonthdaysOrMonths" = "Event will occur every %@ %@.";
