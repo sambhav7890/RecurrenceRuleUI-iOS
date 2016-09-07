@@ -4,7 +4,7 @@ source 'https://github.com/practo/practo-specs.git'
 
 target 'RecurrenceRuleUI-iOS_Example' do
 	pod 'RecurrenceRuleUI-iOS', :path => '../'
-	pod 'RecurrenceRule-iOS', :path => '../../RecurrenceRule-iOS'
+	pod 'RecurrenceRule-iOS', :git => 'https://github.com/practo/RecurrenceRule-iOS.git'
 
   target 'RecurrenceRuleUI-iOS_Tests' do
     inherit! :search_paths

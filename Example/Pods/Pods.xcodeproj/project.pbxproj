@@ -7,55 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05C59AEF9814F1ADB667A119E4DC2251 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 306E80FE264D71428EB2E5E13EA478E1 /* Localizable.strings */; };
-		0922E0F967848F1D4794C1E03AE33F62 /* RecurrenceRuleUI-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F05FD2DBB76DCFE2BB7B2CA317EAB8FD /* RecurrenceRuleUI-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18015B31CC5B8504E78F0C71AAE0D703 /* EKWeekday+RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5816CE55E96C87DE88F25742089B376 /* EKWeekday+RRule.swift */; };
-		1C1AEC505E1DAD4513FFBBEF93DEFA5D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723AB90B627F44FAF2740F59EEF9ADE2 /* String+Extension.swift */; };
-		2398DBC1A09D4C1EC9DD79267114FBA1 /* nlp.js in Resources */ = {isa = PBXBuildFile; fileRef = 88C58B6D1602F823E5257E81E38D72D3 /* nlp.js */; };
-		27DD2A6212DA974EA86A6059F141F76A /* InternationalControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E854D52E0442592061657CE3F6329A27 /* InternationalControl.swift */; };
+		05C59AEF9814F1ADB667A119E4DC2251 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D8ADB08B6534E4E397645BC1A197E /* Localizable.strings */; };
+		0922E0F967848F1D4794C1E03AE33F62 /* RecurrenceRuleUI-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7282A39F76BE6DBDB0645C17A1A5152 /* RecurrenceRuleUI-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16A3EF4835DF9C03AC731AE482B8092F /* RecurrenceRule+Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755AF7E0520B1B4C79C01D04563519AE /* RecurrenceRule+Definition.swift */; };
+		17ADA65F6613854D44B107DFEFDCD30A /* RecurrenceRule-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 061B6EA36EDC75E9A134B90816C81D02 /* RecurrenceRule-iOS-dummy.m */; };
+		1D92F4439EEB0313CCAD72746C6F27AA /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE592E488B45F44C8BBE2B629D73F6 /* BundleHelper.swift */; };
+		27DD2A6212DA974EA86A6059F141F76A /* InternationalControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793032357AC12B3872DFA50B9107E2B4 /* InternationalControl.swift */; };
+		28B321A34E2520B17F2F71F1FC9C14C5 /* RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809B25C0C13377F99A9908619FA8E69 /* RRule.swift */; };
 		32964C8A67949EFDA0D509915692DE1C /* Pods-RecurrenceRuleUI-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9223C2FF541DC60C834686259C41EB /* Pods-RecurrenceRuleUI-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38A244E96D46FBA91B93ED6FBDF134FD /* RecurrenceFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341C9AB634B940139E864654F2A2225B /* RecurrenceFrequency.swift */; };
 		3BF8061393806796858D5712040DFE2B /* RecurrenceRule_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86F7678D009EE814A3E9AC95D93D631 /* RecurrenceRule_iOS.framework */; };
-		470C67555E97A555D585AB93A8D22CC7 /* CustomRecurrenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F556B7F61D4CF786EF023FD84BB59D /* CustomRecurrenceViewController.swift */; };
-		52FD480B6D5C14E8EF7742E769A6D7C1 /* BundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6FB9DBC6E9F62B12846183867D7399 /* BundleHelper.swift */; };
-		57460A54081DD67BA7B21F9325899C90 /* GridSelectorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6070786FFD58D6368B372031ABF31 /* GridSelectorLayout.swift */; };
-		58D041A4B41F34D0555F40C37BA954F6 /* MonthOrDaySelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A97FBD5AE82F9D2965818C296C75184E /* MonthOrDaySelectorCell.xib */; };
-		61B7FE91FB673E7A9616FA9DFDA7AE3D /* RecurrencePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780342D7E79A9ACD61C3C89AB63D0103 /* RecurrencePickerDelegate.swift */; };
-		708672715FE2E3772494EECC5757EF1F /* RecurrenceRule+Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685A2254F0B668E2595994DFDBB8133 /* RecurrenceRule+Definition.swift */; };
-		74D6C6A81126E24C898C58B917B085F2 /* rrule.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F06F291543A1343B1ABF7D14400E6EF /* rrule.js */; };
-		775A1785281E7A0CDE69C76BD4FDEDFD /* RecurrenceRule+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F0E96D473F1D59F45D0DE20B76C56B /* RecurrenceRule+Text.swift */; };
+		3C14EEAC7D7B20D30268E8583DF23B50 /* RecurrenceRule+Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC06B850BA1B453F229DCBBD5A4076 /* RecurrenceRule+Generator.swift */; };
+		3F7B3FDA23D626566E974690131B4E78 /* JavaScriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324491810790EB2908C6E81C8F65284 /* JavaScriptBridge.swift */; };
+		437FEA73B4F31DCA84E14111BB4F551F /* EKRecurrenceRule+iCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B7B7737503A03507AB8338FD98E76 /* EKRecurrenceRule+iCalendar.swift */; };
+		470C67555E97A555D585AB93A8D22CC7 /* CustomRecurrenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73743BDE4DF999DFB45B1F162A0CC0A7 /* CustomRecurrenceViewController.swift */; };
+		475D973A8FB4741CDB5DB2C9479C2A1F /* Generators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C797105050695A91012B292E617114 /* Generators.swift */; };
+		57460A54081DD67BA7B21F9325899C90 /* GridSelectorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6032BA0756CF35EB6C581E152B733F43 /* GridSelectorLayout.swift */; };
+		58D041A4B41F34D0555F40C37BA954F6 /* MonthOrDaySelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AB6CB0B853CE2413C5A9917D80B990 /* MonthOrDaySelectorCell.xib */; };
+		5E822305D8C3E8F377CD4159E95BA40A /* rrule.js in Resources */ = {isa = PBXBuildFile; fileRef = A53A09038350737DF8899C2B695BDAEC /* rrule.js */; };
+		5F3395181A140F019B4BD89403F1526E /* EKRecurrenceRule+recurrenceRuleFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C74444C1737BF298645BA361EB0B9 /* EKRecurrenceRule+recurrenceRuleFromString.swift */; };
+		61B7FE91FB673E7A9616FA9DFDA7AE3D /* RecurrencePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A223A364401AEEC12D261722211901F2 /* RecurrencePickerDelegate.swift */; };
+		775A1785281E7A0CDE69C76BD4FDEDFD /* RecurrenceRule+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F237F750757068D301A2404529F65 /* RecurrenceRule+Text.swift */; };
+		77BF43F3F9E6884B693A9EA288C00B37 /* EKWeekday+RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264DD797580F9F91B25357502E7A101 /* EKWeekday+RRule.swift */; };
 		78D45B738140D7AF6E1DD0D6D3FB35E3 /* RecurrenceRule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AA31CDA41786DD290A92C03227E5A /* RecurrenceRule.bundle */; };
-		79331D4FA084F083F9596890C97968CF /* RecurrencePicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC65F99D2EC13C0BCF00364FC5698D3 /* RecurrencePicker.xcassets */; };
-		79AAEB0C482AEE09F27646FAE0D55773 /* RecurrenceRule-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA97DE63A64949D8892A106D2F7A7B73 /* RecurrenceRule-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79331D4FA084F083F9596890C97968CF /* RecurrencePicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD700509EEA47B54284DC57A220F814 /* RecurrencePicker.xcassets */; };
+		79AAEB0C482AEE09F27646FAE0D55773 /* RecurrenceRule-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B903D5FDAA3E0E947E0D4726F0BA1992 /* RecurrenceRule-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C72E306573110F9C35A07E73DE0CD83 /* Pods-RecurrenceRuleUI-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B49FDBAA1D0F943D5AF1F4BF39DB906 /* Pods-RecurrenceRuleUI-iOS_Example-dummy.m */; };
-		8257EB76D0A08A980A824E47F81189DB /* RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC332B8E2846E661F2095EBB54A46F /* RRule.swift */; };
-		86D7BB649AA8038BD3B8C51EDB5D4200 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363C964F15C897AAD99A84B0275E6AD9 /* Constants.swift */; };
-		87493A1AC1E3CCE1DFA5FF7D3D612907 /* RecurrenceRule-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C186B535A7B01B8F52CA33BBEE4E9 /* RecurrenceRule-iOS-dummy.m */; };
+		7FFC48228306418978509CFE68348836 /* RecurrenceRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED636441261751F61C6F17B502455A6 /* RecurrenceRule.swift */; };
+		86D7BB649AA8038BD3B8C51EDB5D4200 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC97D89C5056881A94EDB539231AB2 /* Constants.swift */; };
+		8D478D758768B9DF865306EE6D94D0D7 /* NSDate+Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091BA649C400F531BE6177E63ED0364 /* NSDate+Comparison.swift */; };
 		90AB6C90D36C2D9CD4248E0E5B03F27C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB63C6427774FFC34FC20FE8A17056E /* Foundation.framework */; };
 		947BD66964AD8098DCB90C2338365802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB63C6427774FFC34FC20FE8A17056E /* Foundation.framework */; };
-		9E16FC11ABCBDE67DAED9F896780CBAA /* ExclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2157D4AFA7BD151726B013152A7AE4D /* ExclusionDate.swift */; };
-		9E9C0B4D5A4AF41F00557D169B414ACC /* RecurrencePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDDEB1D3EB56A744AAE6B8A7A892E98 /* RecurrencePicker.swift */; };
-		9F7489CB32C6828EFF90A7BFB7DC7CDA /* InclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D03392C8F700AA93D1E1BFB75AC37DD /* InclusionDate.swift */; };
-		AC55428FA3958E701F16DA210D6A145E /* RecurrenceRuleUI-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E887B251164B0B25AB9C8117D105847 /* RecurrenceRuleUI-iOS-dummy.m */; };
-		B1511F4FEFFA39CC3718414EA7D6EFA1 /* NSDate+Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1EA3E7422D56DF072B0A2F913B158 /* NSDate+Comparison.swift */; };
+		972302975223C0C3E366ABC4E40948C4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0F4AD51705197CF0249FA4E874D15 /* String+Extension.swift */; };
+		9E9C0B4D5A4AF41F00557D169B414ACC /* RecurrencePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1520BBC8405143014E9415B76EF0305E /* RecurrencePicker.swift */; };
+		AC55428FA3958E701F16DA210D6A145E /* RecurrenceRuleUI-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 848ABB699BAFC6E3519F7DD8518FC3CF /* RecurrenceRuleUI-iOS-dummy.m */; };
+		AE5B1D99C64011CF5A5A1D63F3D72973 /* RecurrenceFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C3A0F8F511DDC3059A6705F6404D8 /* RecurrenceFrequency.swift */; };
 		B2C1EF036AE2FE822448407B09AF2466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB63C6427774FFC34FC20FE8A17056E /* Foundation.framework */; };
-		B864A3ED8037B5C0615398D2CD45A899 /* MonthOrDaySelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3759B3B2473485137FE76AB7FAD1982D /* MonthOrDaySelectorCell.swift */; };
-		B875FAAFB6098AE0A04B71E5EC4222C5 /* EKWeekday+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A62076F53768D78A464D7463708AF5 /* EKWeekday+Sequence.swift */; };
+		B864A3ED8037B5C0615398D2CD45A899 /* MonthOrDaySelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187FB353DA8DE9A0E20DE29FA21E3DEB /* MonthOrDaySelectorCell.swift */; };
+		B875FAAFB6098AE0A04B71E5EC4222C5 /* EKWeekday+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090894C8CB506971AF3B36F8303DE377 /* EKWeekday+Sequence.swift */; };
 		B92FC995B5982B756655274508A12377 /* Pods-RecurrenceRuleUI-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F993CA8AD5B06D6F4D05CF7B876F9F37 /* Pods-RecurrenceRuleUI-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD8B6E6364994B597F6F9AC56D00D270 /* JavaScriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77A7829FB9C7E279B6EC54F9492939 /* JavaScriptBridge.swift */; };
-		C49070E9E4B8A75A00ABD557C07D6F5F /* RecurrenceFrequency+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47F8A41E119E18D8FD6C4790568156 /* RecurrenceFrequency+Sequence.swift */; };
+		C3B2EC37D5D3C5947B9BD49485386D92 /* InclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B6F65C72B7300D7AAAA49915C085F /* InclusionDate.swift */; };
+		C49070E9E4B8A75A00ABD557C07D6F5F /* RecurrenceFrequency+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C173C10138A35106E196665E662F30AE /* RecurrenceFrequency+Sequence.swift */; };
 		C70B330724C448365B35F76813B69558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB63C6427774FFC34FC20FE8A17056E /* Foundation.framework */; };
-		C7DAB7737722A5BCAEA44923DCE5584D /* Generators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D29D18E337DF06F48C6F2659E08C5A /* Generators.swift */; };
-		D029819F8DADC08EDE01D787ED756714 /* RecurrenceRule+Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B23DF08D6178B871AC4E87DB7D2B0 /* RecurrenceRule+Generator.swift */; };
-		E1E27DEDCA1FE1D16C8B975692C7FE98 /* EKRecurrenceRule+iCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD517B22568D4FB658135B9241320 /* EKRecurrenceRule+iCalendar.swift */; };
+		D59063A3C8E74171D383D4ACF0CE345E /* ExclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709B8E8C7FEE58B0EECF769EFD03F3E1 /* ExclusionDate.swift */; };
 		E57411B8A2C5B2399E4DF9F483362B5B /* RecurrenceRuleUI-iOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A6F24177325AC8A7CFF3086741185 /* RecurrenceRuleUI-iOS.bundle */; };
-		E821DB419EA912E15F2A96B3C9EB54A5 /* SelectorItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD2BD405C80FBA944007A93FB7CB7A /* SelectorItemCell.swift */; };
-		EF22D3612DA4BEA43F904F40687DAC9A /* PickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AF76F7ADC5DF4A3903C05CCBE6E67 /* PickerViewCell.swift */; };
+		E821DB419EA912E15F2A96B3C9EB54A5 /* SelectorItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA8C138C595442E9C8CE2DAAC2853F /* SelectorItemCell.swift */; };
+		EF22D3612DA4BEA43F904F40687DAC9A /* PickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A5143D8BED383F1ED105DB805F052 /* PickerViewCell.swift */; };
 		EF590F903A4B68489EC2A549C78AA98E /* Pods-RecurrenceRuleUI-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6C088D9A26DF686808C82B607B8185 /* Pods-RecurrenceRuleUI-iOS_Tests-dummy.m */; };
-		F0FDB88496CC6AF3E5E0FA82818089DB /* RecurrenceRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859764662511BE64D7CB66A213BA502 /* RecurrenceRule.swift */; };
-		F3053B9F6E9D660B5D8AEF3D5898774F /* PickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14E22C26D6013FE97193F2EDD4E4337 /* PickerViewCell.xib */; };
-		F55AD07F06B697D170C1ECA5C14FD369 /* EKRecurrenceRule+recurrenceRuleFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDE6230EA6AA09F62FD0E8EE4F62EA4 /* EKRecurrenceRule+recurrenceRuleFromString.swift */; };
-		FD117E8A02287A086BED555FC0FA9492 /* SelectorItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397A6FB950EE88145B33AE9FFAFAAF9B /* SelectorItemCell.xib */; };
+		F3053B9F6E9D660B5D8AEF3D5898774F /* PickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71BD7E456FD3E9DDA46DEE5AD0B9F52F /* PickerViewCell.xib */; };
+		FD117E8A02287A086BED555FC0FA9492 /* SelectorItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F45205DFDAC573D4D5EBE0EEE0086DD /* SelectorItemCell.xib */; };
+		FE2880399C13B2EFECC00FF5A99918A4 /* nlp.js in Resources */ = {isa = PBXBuildFile; fileRef = 435F203AD96ABBF37BC15B7B75FA2052 /* nlp.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,81 +97,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061B6EA36EDC75E9A134B90816C81D02 /* RecurrenceRule-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecurrenceRule-iOS-dummy.m"; sourceTree = "<group>"; };
 		063A27FAD56DEF3E3117EB155A423F41 /* Pods-RecurrenceRuleUI-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrenceRuleUI-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		06441D5520D97B5DB64D7AA9E2D3699B /* RecurrenceRule-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "RecurrenceRule-iOS.modulemap"; sourceTree = "<group>"; };
-		0859764662511BE64D7CB66A213BA502 /* RecurrenceRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrenceRule.swift; sourceTree = "<group>"; };
-		0E887B251164B0B25AB9C8117D105847 /* RecurrenceRuleUI-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecurrenceRuleUI-iOS-dummy.m"; sourceTree = "<group>"; };
+		090894C8CB506971AF3B36F8303DE377 /* EKWeekday+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EKWeekday+Sequence.swift"; sourceTree = "<group>"; };
+		0E611A1D9813747F790277080DC052A8 /* RecurrenceRule-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrenceRule-iOS-prefix.pch"; sourceTree = "<group>"; };
+		0F27AB20F5E220F7E312D9B913FE0C21 /* RecurrenceRule-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "RecurrenceRule-iOS.modulemap"; sourceTree = "<group>"; };
 		0F7E786CD6B25D3EE1235BA883978A87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11646808DF910F18B0BEC7FAD35F6F2F /* RecurrenceRule_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecurrenceRule_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1520BBC8405143014E9415B76EF0305E /* RecurrencePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrencePicker.swift; sourceTree = "<group>"; };
 		15DC605A9ABEFC62081A945DC7B28BE1 /* Pods-RecurrenceRuleUI-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecurrenceRuleUI-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		174E2912C6275DB872E3D6883850F148 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18CAD517B22568D4FB658135B9241320 /* EKRecurrenceRule+iCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EKRecurrenceRule+iCalendar.swift"; sourceTree = "<group>"; };
-		19AD2BD405C80FBA944007A93FB7CB7A /* SelectorItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelectorItemCell.swift; sourceTree = "<group>"; };
+		187FB353DA8DE9A0E20DE29FA21E3DEB /* MonthOrDaySelectorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MonthOrDaySelectorCell.swift; sourceTree = "<group>"; };
 		1B1AA31CDA41786DD290A92C03227E5A /* RecurrenceRule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecurrenceRule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B49FDBAA1D0F943D5AF1F4BF39DB906 /* Pods-RecurrenceRuleUI-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecurrenceRuleUI-iOS_Example-dummy.m"; sourceTree = "<group>"; };
-		1B7B37907E7837E5CC5078BEE49E12D8 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1D567749DB4B013D1ECEC6F36A7E0300 /* Pods-RecurrenceRuleUI-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrenceRuleUI-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1E7A6F24177325AC8A7CFF3086741185 /* RecurrenceRuleUI-iOS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RecurrenceRuleUI-iOS.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1C584681074CE7CE0CD8E63BC09EFE /* Pods-RecurrenceRuleUI-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrenceRuleUI-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2FDE6230EA6AA09F62FD0E8EE4F62EA4 /* EKRecurrenceRule+recurrenceRuleFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EKRecurrenceRule+recurrenceRuleFromString.swift"; sourceTree = "<group>"; };
+		2FBA8C138C595442E9C8CE2DAAC2853F /* SelectorItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelectorItemCell.swift; sourceTree = "<group>"; };
+		302C3A0F8F511DDC3059A6705F6404D8 /* RecurrenceFrequency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurrenceFrequency.swift; path = "RecurrenceRule-iOS/Classes/RecurrenceFrequency.swift"; sourceTree = "<group>"; };
 		325399F6E49213E79D1262C5F5F9D0BD /* Pods-RecurrenceRuleUI-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecurrenceRuleUI-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		341C9AB634B940139E864654F2A2225B /* RecurrenceFrequency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrenceFrequency.swift; sourceTree = "<group>"; };
-		363C964F15C897AAD99A84B0275E6AD9 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		3759B3B2473485137FE76AB7FAD1982D /* MonthOrDaySelectorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MonthOrDaySelectorCell.swift; sourceTree = "<group>"; };
-		38A62076F53768D78A464D7463708AF5 /* EKWeekday+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EKWeekday+Sequence.swift"; sourceTree = "<group>"; };
-		397A6FB950EE88145B33AE9FFAFAAF9B /* SelectorItemCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SelectorItemCell.xib; sourceTree = "<group>"; };
-		3A9C186B535A7B01B8F52CA33BBEE4E9 /* RecurrenceRule-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecurrenceRule-iOS-dummy.m"; sourceTree = "<group>"; };
+		3B0B6F65C72B7300D7AAAA49915C085F /* InclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InclusionDate.swift; path = "RecurrenceRule-iOS/Classes/InclusionDate.swift"; sourceTree = "<group>"; };
 		3C9223C2FF541DC60C834686259C41EB /* Pods-RecurrenceRuleUI-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecurrenceRuleUI-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		3D29F6C7F77B4FD270E15E56A87D403A /* Pods_RecurrenceRuleUI_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecurrenceRuleUI_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		435F203AD96ABBF37BC15B7B75FA2052 /* nlp.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = nlp.js; path = "RecurrenceRule-iOS/Assets/lib/nlp.js"; sourceTree = "<group>"; };
 		4619FD4996FF173808CEBFDD8A6C60B7 /* RecurrenceRuleUI_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecurrenceRuleUI_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4658DF773161A5A42A8D75A2FC3962C5 /* Pods-RecurrenceRuleUI-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrenceRuleUI-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		48D29D18E337DF06F48C6F2659E08C5A /* Generators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Generators.swift; sourceTree = "<group>"; };
-		4D03392C8F700AA93D1E1BFB75AC37DD /* InclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InclusionDate.swift; sourceTree = "<group>"; };
-		4F06F291543A1343B1ABF7D14400E6EF /* rrule.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = rrule.js; sourceTree = "<group>"; };
-		4F47F8A41E119E18D8FD6C4790568156 /* RecurrenceFrequency+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RecurrenceFrequency+Sequence.swift"; sourceTree = "<group>"; };
-		51F8E6FDF2A0D0986CAF0DFE8CF9C678 /* RecurrenceRuleUI-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "RecurrenceRuleUI-iOS.modulemap"; sourceTree = "<group>"; };
-		5EDDEB1D3EB56A744AAE6B8A7A892E98 /* RecurrencePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrencePicker.swift; sourceTree = "<group>"; };
-		630AF76F7ADC5DF4A3903C05CCBE6E67 /* PickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerViewCell.swift; sourceTree = "<group>"; };
-		6BC65F99D2EC13C0BCF00364FC5698D3 /* RecurrencePicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = RecurrencePicker.xcassets; sourceTree = "<group>"; };
+		46DB8459EE5E85E2298A239E17A3F813 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4CBBA1A673FE531F9847E0A6102347 /* RecurrenceRule-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RecurrenceRule-iOS.xcconfig"; sourceTree = "<group>"; };
+		4F0F237F750757068D301A2404529F65 /* RecurrenceRule+Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RecurrenceRule+Text.swift"; sourceTree = "<group>"; };
+		52B0F4AD51705197CF0249FA4E874D15 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "RecurrenceRule-iOS/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		5E4EC39648E8EAE62F736586E5F8B94E /* ResourceBundle-RecurrenceRuleUI-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecurrenceRuleUI-iOS-Info.plist"; sourceTree = "<group>"; };
+		6032BA0756CF35EB6C581E152B733F43 /* GridSelectorLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GridSelectorLayout.swift; sourceTree = "<group>"; };
+		647AC5B490B8AFE6EB868D43A8D278EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AB6CB0B853CE2413C5A9917D80B990 /* MonthOrDaySelectorCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MonthOrDaySelectorCell.xib; sourceTree = "<group>"; };
 		6DC80C6A7691D7C9A2BC4A7B16B258BA /* Pods-RecurrenceRuleUI-iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrenceRuleUI-iOS_Tests-resources.sh"; sourceTree = "<group>"; };
-		723AB90B627F44FAF2740F59EEF9ADE2 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6FAC97D89C5056881A94EDB539231AB2 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		709B8E8C7FEE58B0EECF769EFD03F3E1 /* ExclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExclusionDate.swift; path = "RecurrenceRule-iOS/Classes/ExclusionDate.swift"; sourceTree = "<group>"; };
+		71BD7E456FD3E9DDA46DEE5AD0B9F52F /* PickerViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PickerViewCell.xib; sourceTree = "<group>"; };
+		73743BDE4DF999DFB45B1F162A0CC0A7 /* CustomRecurrenceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomRecurrenceViewController.swift; sourceTree = "<group>"; };
 		73CDFC98F11D56264A56A213990EF544 /* Pods-RecurrenceRuleUI-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RecurrenceRuleUI-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		755AF7E0520B1B4C79C01D04563519AE /* RecurrenceRule+Definition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Definition.swift"; path = "RecurrenceRule-iOS/Classes/RecurrenceRule+Definition.swift"; sourceTree = "<group>"; };
 		77A480E4FC065A2CE86434507257CA0B /* Pods-RecurrenceRuleUI-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RecurrenceRuleUI-iOS_Tests.modulemap"; sourceTree = "<group>"; };
-		780342D7E79A9ACD61C3C89AB63D0103 /* RecurrencePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrencePickerDelegate.swift; sourceTree = "<group>"; };
-		801B23DF08D6178B871AC4E87DB7D2B0 /* RecurrenceRule+Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RecurrenceRule+Generator.swift"; sourceTree = "<group>"; };
-		88C58B6D1602F823E5257E81E38D72D3 /* nlp.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = nlp.js; sourceTree = "<group>"; };
-		89DC332B8E2846E661F2095EBB54A46F /* RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RRule.swift; sourceTree = "<group>"; };
+		793032357AC12B3872DFA50B9107E2B4 /* InternationalControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InternationalControl.swift; sourceTree = "<group>"; };
+		7FD6D475ECE5E88AE1667578CA0F7796 /* RecurrenceRuleUI-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RecurrenceRuleUI-iOS.xcconfig"; sourceTree = "<group>"; };
+		828B7B7737503A03507AB8338FD98E76 /* EKRecurrenceRule+iCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKRecurrenceRule+iCalendar.swift"; path = "RecurrenceRule-iOS/Classes/EKRecurrenceRule+iCalendar.swift"; sourceTree = "<group>"; };
+		831A9EA1966ACFE60EA5D55CA868D40C /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		848ABB699BAFC6E3519F7DD8518FC3CF /* RecurrenceRuleUI-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecurrenceRuleUI-iOS-dummy.m"; sourceTree = "<group>"; };
 		8BDE492EDA3D031FB71A63C7A8A16D10 /* Pods-RecurrenceRuleUI-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrenceRuleUI-iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		8D8A5143D8BED383F1ED105DB805F052 /* PickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerViewCell.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94F0E96D473F1D59F45D0DE20B76C56B /* RecurrenceRule+Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RecurrenceRule+Text.swift"; sourceTree = "<group>"; };
-		A2157D4AFA7BD151726B013152A7AE4D /* ExclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExclusionDate.swift; sourceTree = "<group>"; };
-		A685A2254F0B668E2595994DFDBB8133 /* RecurrenceRule+Definition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RecurrenceRule+Definition.swift"; sourceTree = "<group>"; };
-		A7A2A6741994855EDC59A39372C86F91 /* RecurrenceRule-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RecurrenceRule-iOS.xcconfig"; sourceTree = "<group>"; };
-		A97FBD5AE82F9D2965818C296C75184E /* MonthOrDaySelectorCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MonthOrDaySelectorCell.xib; sourceTree = "<group>"; };
+		9BFC06B850BA1B453F229DCBBD5A4076 /* RecurrenceRule+Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Generator.swift"; path = "RecurrenceRule-iOS/Classes/RecurrenceRule+Generator.swift"; sourceTree = "<group>"; };
+		9F45205DFDAC573D4D5EBE0EEE0086DD /* SelectorItemCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SelectorItemCell.xib; sourceTree = "<group>"; };
+		A0899B2EE3296165EFC5449F4D0E904C /* ResourceBundle-RecurrenceRule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecurrenceRule-Info.plist"; sourceTree = "<group>"; };
+		A223A364401AEEC12D261722211901F2 /* RecurrencePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrencePickerDelegate.swift; sourceTree = "<group>"; };
+		A53A09038350737DF8899C2B695BDAEC /* rrule.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = rrule.js; path = "RecurrenceRule-iOS/Assets/lib/rrule.js"; sourceTree = "<group>"; };
+		A83C74444C1737BF298645BA361EB0B9 /* EKRecurrenceRule+recurrenceRuleFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKRecurrenceRule+recurrenceRuleFromString.swift"; path = "RecurrenceRule-iOS/Classes/EKRecurrenceRule+recurrenceRuleFromString.swift"; sourceTree = "<group>"; };
 		AD980A179D0B27B0C8F1ECEB5BDCDCDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB63C6427774FFC34FC20FE8A17056E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AF19CF8943E0CFFFBA27A724A290AC68 /* Pods-RecurrenceRuleUI-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrenceRuleUI-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B0CB16A1EE250FF374E023C206A40CDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEE592E488B45F44C8BBE2B629D73F6 /* BundleHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleHelper.swift; path = "RecurrenceRule-iOS/Classes/BundleHelper.swift"; sourceTree = "<group>"; };
 		B225F1724C9CE3DB71A8B07D4353C6D5 /* Pods-RecurrenceRuleUI-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrenceRuleUI-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B40DFD89AE7222E40993BB0A6DF0ADB8 /* Pods-RecurrenceRuleUI-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrenceRuleUI-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B89355CAC337D92F55500C9B1AD42ACE /* RecurrenceRuleUI-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrenceRuleUI-iOS-prefix.pch"; sourceTree = "<group>"; };
-		BA97DE63A64949D8892A106D2F7A7B73 /* RecurrenceRule-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrenceRule-iOS-umbrella.h"; sourceTree = "<group>"; };
-		BB77A7829FB9C7E279B6EC54F9492939 /* JavaScriptBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JavaScriptBridge.swift; sourceTree = "<group>"; };
-		BF6FB9DBC6E9F62B12846183867D7399 /* BundleHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleHelper.swift; sourceTree = "<group>"; };
-		C1A48DB308BBD2CF7831DCAFEA012C27 /* ResourceBundle-RecurrenceRule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecurrenceRule-Info.plist"; sourceTree = "<group>"; };
-		CBB1EA3E7422D56DF072B0A2F913B158 /* NSDate+Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+Comparison.swift"; sourceTree = "<group>"; };
-		CDF6070786FFD58D6368B372031ABF31 /* GridSelectorLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GridSelectorLayout.swift; sourceTree = "<group>"; };
+		B903D5FDAA3E0E947E0D4726F0BA1992 /* RecurrenceRule-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrenceRule-iOS-umbrella.h"; sourceTree = "<group>"; };
+		BFD700509EEA47B54284DC57A220F814 /* RecurrencePicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = RecurrencePicker.xcassets; sourceTree = "<group>"; };
+		C173C10138A35106E196665E662F30AE /* RecurrenceFrequency+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RecurrenceFrequency+Sequence.swift"; sourceTree = "<group>"; };
+		C41DF63460AB4F2EDE14166E1EF4FA35 /* RecurrenceRuleUI-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "RecurrenceRuleUI-iOS.modulemap"; sourceTree = "<group>"; };
+		CED636441261751F61C6F17B502455A6 /* RecurrenceRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurrenceRule.swift; path = "RecurrenceRule-iOS/Classes/RecurrenceRule.swift"; sourceTree = "<group>"; };
 		CF6C088D9A26DF686808C82B607B8185 /* Pods-RecurrenceRuleUI-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecurrenceRuleUI-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		CF873E232551B82FF4D860BB3BA6CBEF /* RecurrenceRuleUI-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrenceRuleUI-iOS-prefix.pch"; sourceTree = "<group>"; };
+		D264DD797580F9F91B25357502E7A101 /* EKWeekday+RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKWeekday+RRule.swift"; path = "RecurrenceRule-iOS/Classes/EKWeekday+RRule.swift"; sourceTree = "<group>"; };
 		D3D0B8AC7FC52EAC9DA1D9604DB21864 /* Pods_RecurrenceRuleUI_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecurrenceRuleUI_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAD28E98A6F9D1B9203F0F31B4FD8463 /* ResourceBundle-RecurrenceRuleUI-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecurrenceRuleUI-iOS-Info.plist"; sourceTree = "<group>"; };
-		E035D5FBE8771B1DA0FB5EA0753A7563 /* RecurrenceRule-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrenceRule-iOS-prefix.pch"; sourceTree = "<group>"; };
-		E14E22C26D6013FE97193F2EDD4E4337 /* PickerViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PickerViewCell.xib; sourceTree = "<group>"; };
+		E091BA649C400F531BE6177E63ED0364 /* NSDate+Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Comparison.swift"; path = "RecurrenceRule-iOS/Classes/NSDate+Comparison.swift"; sourceTree = "<group>"; };
+		E4C797105050695A91012B292E617114 /* Generators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generators.swift; path = "RecurrenceRule-iOS/Classes/Generators.swift"; sourceTree = "<group>"; };
 		E75D48A50D7A0183718AAFA92BF706E0 /* Pods-RecurrenceRuleUI-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrenceRuleUI-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E854D52E0442592061657CE3F6329A27 /* InternationalControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InternationalControl.swift; sourceTree = "<group>"; };
-		EC6E97951527B9ADBF607CCD7642BA9C /* RecurrenceRuleUI-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RecurrenceRuleUI-iOS.xcconfig"; sourceTree = "<group>"; };
-		F05FD2DBB76DCFE2BB7B2CA317EAB8FD /* RecurrenceRuleUI-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrenceRuleUI-iOS-umbrella.h"; sourceTree = "<group>"; };
-		F3F556B7F61D4CF786EF023FD84BB59D /* CustomRecurrenceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomRecurrenceViewController.swift; sourceTree = "<group>"; };
-		F5816CE55E96C87DE88F25742089B376 /* EKWeekday+RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EKWeekday+RRule.swift"; sourceTree = "<group>"; };
+		E809B25C0C13377F99A9908619FA8E69 /* RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RRule.swift; path = "RecurrenceRule-iOS/Classes/RRule.swift"; sourceTree = "<group>"; };
+		F324491810790EB2908C6E81C8F65284 /* JavaScriptBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptBridge.swift; path = "RecurrenceRule-iOS/Classes/JavaScriptBridge.swift"; sourceTree = "<group>"; };
+		F7282A39F76BE6DBDB0645C17A1A5152 /* RecurrenceRuleUI-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrenceRuleUI-iOS-umbrella.h"; sourceTree = "<group>"; };
 		F86F7678D009EE814A3E9AC95D93D631 /* RecurrenceRule_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecurrenceRule_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F993CA8AD5B06D6F4D05CF7B876F9F37 /* Pods-RecurrenceRuleUI-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecurrenceRuleUI-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -227,74 +227,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F9F5A02D5565F6B2F1520064AE91F8 /* Assets */ = {
+		1C737982AF0C8AC3F77B9BFE53F8557C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				580E54458F7E3F835AF84262BF59D5CD /* lib */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		0DB713FA07C0DD711DA6C88E08A7D1AA /* RecurrenceRuleUI-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6449CCD14B3950E9E0FD846725EE845 /* Classes */,
-			);
-			path = "RecurrenceRuleUI-iOS";
-			sourceTree = "<group>";
-		};
-		1032873DC67372D60A8829731BC06A27 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BF6FB9DBC6E9F62B12846183867D7399 /* BundleHelper.swift */,
-				18CAD517B22568D4FB658135B9241320 /* EKRecurrenceRule+iCalendar.swift */,
-				2FDE6230EA6AA09F62FD0E8EE4F62EA4 /* EKRecurrenceRule+recurrenceRuleFromString.swift */,
-				F5816CE55E96C87DE88F25742089B376 /* EKWeekday+RRule.swift */,
-				A2157D4AFA7BD151726B013152A7AE4D /* ExclusionDate.swift */,
-				48D29D18E337DF06F48C6F2659E08C5A /* Generators.swift */,
-				4D03392C8F700AA93D1E1BFB75AC37DD /* InclusionDate.swift */,
-				BB77A7829FB9C7E279B6EC54F9492939 /* JavaScriptBridge.swift */,
-				CBB1EA3E7422D56DF072B0A2F913B158 /* NSDate+Comparison.swift */,
-				341C9AB634B940139E864654F2A2225B /* RecurrenceFrequency.swift */,
-				0859764662511BE64D7CB66A213BA502 /* RecurrenceRule.swift */,
-				A685A2254F0B668E2595994DFDBB8133 /* RecurrenceRule+Definition.swift */,
-				801B23DF08D6178B871AC4E87DB7D2B0 /* RecurrenceRule+Generator.swift */,
-				89DC332B8E2846E661F2095EBB54A46F /* RRule.swift */,
-				723AB90B627F44FAF2740F59EEF9ADE2 /* String+Extension.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		2651A877DC6F0AC4273B60D72D3C51EA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D1B9EB2CD88D4ECDE8BF9A8CA167EFC0 /* RecurrenceRule-iOS */,
-				2A7EC3F6802070F1F6FCF1E3504C7CAA /* RecurrenceRuleUI-iOS */,
+				68518CC405B4B3EC86DF314665A4D499 /* RecurrenceRuleUI-iOS */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2A7EC3F6802070F1F6FCF1E3504C7CAA /* RecurrenceRuleUI-iOS */ = {
+		29DBD2A09D7A0EC91E2CC64ADEDA26C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0DB713FA07C0DD711DA6C88E08A7D1AA /* RecurrenceRuleUI-iOS */,
-				596A1430B61FA2F31316DA77E0A471B2 /* Resources */,
-				608ED80A34A9121704323C090E01200F /* Support Files */,
+				46DB8459EE5E85E2298A239E17A3F813 /* Info.plist */,
+				0F27AB20F5E220F7E312D9B913FE0C21 /* RecurrenceRule-iOS.modulemap */,
+				4D4CBBA1A673FE531F9847E0A6102347 /* RecurrenceRule-iOS.xcconfig */,
+				061B6EA36EDC75E9A134B90816C81D02 /* RecurrenceRule-iOS-dummy.m */,
+				0E611A1D9813747F790277080DC052A8 /* RecurrenceRule-iOS-prefix.pch */,
+				B903D5FDAA3E0E947E0D4726F0BA1992 /* RecurrenceRule-iOS-umbrella.h */,
+				A0899B2EE3296165EFC5449F4D0E904C /* ResourceBundle-RecurrenceRule-Info.plist */,
 			);
-			name = "RecurrenceRuleUI-iOS";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2AAAD8B8382D74F494DFDB4A0D5EE924 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				A97FBD5AE82F9D2965818C296C75184E /* MonthOrDaySelectorCell.xib */,
-				E14E22C26D6013FE97193F2EDD4E4337 /* PickerViewCell.xib */,
-				6BC65F99D2EC13C0BCF00364FC5698D3 /* RecurrencePicker.xcassets */,
-				397A6FB950EE88145B33AE9FFAFAAF9B /* SelectorItemCell.xib */,
-				39479ED25B42776DC9C6DE1B113F520C /* LocalizedStrings */,
-			);
-			path = Assets;
+			name = "Support Files";
+			path = "../Target Support Files/RecurrenceRule-iOS";
 			sourceTree = "<group>";
 		};
 		30EF09D8EAC7C6C7D6AE838F324B2A9E /* Frameworks */ = {
@@ -306,67 +259,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		39479ED25B42776DC9C6DE1B113F520C /* LocalizedStrings */ = {
+		58D9A2BB9A51341D54A58E960EFCA5EE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				306E80FE264D71428EB2E5E13EA478E1 /* Localizable.strings */,
+				E9A5BDFB8BADF6BBDB3E5B49C2238EBF /* RecurrenceRule-iOS */,
 			);
-			path = LocalizedStrings;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		46170BF49376D35B097BB27F80ACF332 /* Support Files */ = {
+		68518CC405B4B3EC86DF314665A4D499 /* RecurrenceRuleUI-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B0CB16A1EE250FF374E023C206A40CDC /* Info.plist */,
-				06441D5520D97B5DB64D7AA9E2D3699B /* RecurrenceRule-iOS.modulemap */,
-				A7A2A6741994855EDC59A39372C86F91 /* RecurrenceRule-iOS.xcconfig */,
-				3A9C186B535A7B01B8F52CA33BBEE4E9 /* RecurrenceRule-iOS-dummy.m */,
-				E035D5FBE8771B1DA0FB5EA0753A7563 /* RecurrenceRule-iOS-prefix.pch */,
-				BA97DE63A64949D8892A106D2F7A7B73 /* RecurrenceRule-iOS-umbrella.h */,
-				C1A48DB308BBD2CF7831DCAFEA012C27 /* ResourceBundle-RecurrenceRule-Info.plist */,
+				B64D90706AC98401EC59386344C3CA02 /* RecurrenceRuleUI-iOS */,
+				ED58A4D3E4F6EF3165331274540ECD3A /* Resources */,
+				C749C788D08FC8368B8201D3E34F8985 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../RecurrenceRuleUI-iOS/Example/Pods/Target Support Files/RecurrenceRule-iOS";
-			sourceTree = "<group>";
-		};
-		580E54458F7E3F835AF84262BF59D5CD /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				88C58B6D1602F823E5257E81E38D72D3 /* nlp.js */,
-				4F06F291543A1343B1ABF7D14400E6EF /* rrule.js */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		5850BD366E3AF9858ED9DDD360765EB9 /* RecurrenceRuleUI-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2AAAD8B8382D74F494DFDB4A0D5EE924 /* Assets */,
-			);
-			path = "RecurrenceRuleUI-iOS";
-			sourceTree = "<group>";
-		};
-		596A1430B61FA2F31316DA77E0A471B2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5850BD366E3AF9858ED9DDD360765EB9 /* RecurrenceRuleUI-iOS */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		608ED80A34A9121704323C090E01200F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				174E2912C6275DB872E3D6883850F148 /* Info.plist */,
-				51F8E6FDF2A0D0986CAF0DFE8CF9C678 /* RecurrenceRuleUI-iOS.modulemap */,
-				EC6E97951527B9ADBF607CCD7642BA9C /* RecurrenceRuleUI-iOS.xcconfig */,
-				0E887B251164B0B25AB9C8117D105847 /* RecurrenceRuleUI-iOS-dummy.m */,
-				B89355CAC337D92F55500C9B1AD42ACE /* RecurrenceRuleUI-iOS-prefix.pch */,
-				F05FD2DBB76DCFE2BB7B2CA317EAB8FD /* RecurrenceRuleUI-iOS-umbrella.h */,
-				DAD28E98A6F9D1B9203F0F31B4FD8463 /* ResourceBundle-RecurrenceRuleUI-iOS-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RecurrenceRuleUI-iOS";
+			name = "RecurrenceRuleUI-iOS";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7CA5D8846F22B884F0E9C8D3B1F48180 /* Targets Support Files */ = {
@@ -382,8 +291,9 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2651A877DC6F0AC4273B60D72D3C51EA /* Development Pods */,
+				1C737982AF0C8AC3F77B9BFE53F8557C /* Development Pods */,
 				30EF09D8EAC7C6C7D6AE838F324B2A9E /* Frameworks */,
+				58D9A2BB9A51341D54A58E960EFCA5EE /* Pods */,
 				C93D6707CC527CB5C4FF409E6F18F654 /* Products */,
 				7CA5D8846F22B884F0E9C8D3B1F48180 /* Targets Support Files */,
 			);
@@ -407,6 +317,14 @@
 			path = "Target Support Files/Pods-RecurrenceRuleUI-iOS_Tests";
 			sourceTree = "<group>";
 		};
+		96169391263573E05AC4CB8878C0223B /* LocalizedStrings */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D8ADB08B6534E4E397645BC1A197E /* Localizable.strings */,
+			);
+			path = LocalizedStrings;
+			sourceTree = "<group>";
+		};
 		A34D396ACD27D297A33BA51EC8BCB198 /* Pods-RecurrenceRuleUI-iOS_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,6 +343,29 @@
 			path = "Target Support Files/Pods-RecurrenceRuleUI-iOS_Example";
 			sourceTree = "<group>";
 		};
+		B64D90706AC98401EC59386344C3CA02 /* RecurrenceRuleUI-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4EA5FF0CDCB3808DDB5F4BA3CC3BC /* Classes */,
+			);
+			path = "RecurrenceRuleUI-iOS";
+			sourceTree = "<group>";
+		};
+		C749C788D08FC8368B8201D3E34F8985 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				647AC5B490B8AFE6EB868D43A8D278EE /* Info.plist */,
+				C41DF63460AB4F2EDE14166E1EF4FA35 /* RecurrenceRuleUI-iOS.modulemap */,
+				7FD6D475ECE5E88AE1667578CA0F7796 /* RecurrenceRuleUI-iOS.xcconfig */,
+				848ABB699BAFC6E3519F7DD8518FC3CF /* RecurrenceRuleUI-iOS-dummy.m */,
+				CF873E232551B82FF4D860BB3BA6CBEF /* RecurrenceRuleUI-iOS-prefix.pch */,
+				F7282A39F76BE6DBDB0645C17A1A5152 /* RecurrenceRuleUI-iOS-umbrella.h */,
+				5E4EC39648E8EAE62F736586E5F8B94E /* ResourceBundle-RecurrenceRuleUI-iOS-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RecurrenceRuleUI-iOS";
+			sourceTree = "<group>";
+		};
 		C93D6707CC527CB5C4FF409E6F18F654 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,42 +379,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1B9EB2CD88D4ECDE8BF9A8CA167EFC0 /* RecurrenceRule-iOS */ = {
+		CCECC1162B541ADCFB72A61FE727F4E9 /* RecurrenceRuleUI-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F9CEB49BE3D341B8B7ADF56E9BD237D7 /* RecurrenceRule-iOS */,
-				EA32B76563D799991779B0B9D8DC7F77 /* Resources */,
-				46170BF49376D35B097BB27F80ACF332 /* Support Files */,
+				E44D2BD048AD01CC433B6C84202CECAB /* Assets */,
 			);
-			name = "RecurrenceRule-iOS";
-			path = "../../../RecurrenceRule-iOS";
-			sourceTree = "<group>";
-		};
-		D318AEC476BC025C22EC626550893542 /* RecurrenceRule-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				01F9F5A02D5565F6B2F1520064AE91F8 /* Assets */,
-			);
-			path = "RecurrenceRule-iOS";
-			sourceTree = "<group>";
-		};
-		D6449CCD14B3950E9E0FD846725EE845 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				363C964F15C897AAD99A84B0275E6AD9 /* Constants.swift */,
-				F3F556B7F61D4CF786EF023FD84BB59D /* CustomRecurrenceViewController.swift */,
-				38A62076F53768D78A464D7463708AF5 /* EKWeekday+Sequence.swift */,
-				CDF6070786FFD58D6368B372031ABF31 /* GridSelectorLayout.swift */,
-				E854D52E0442592061657CE3F6329A27 /* InternationalControl.swift */,
-				3759B3B2473485137FE76AB7FAD1982D /* MonthOrDaySelectorCell.swift */,
-				630AF76F7ADC5DF4A3903C05CCBE6E67 /* PickerViewCell.swift */,
-				4F47F8A41E119E18D8FD6C4790568156 /* RecurrenceFrequency+Sequence.swift */,
-				5EDDEB1D3EB56A744AAE6B8A7A892E98 /* RecurrencePicker.swift */,
-				780342D7E79A9ACD61C3C89AB63D0103 /* RecurrencePickerDelegate.swift */,
-				94F0E96D473F1D59F45D0DE20B76C56B /* RecurrenceRule+Text.swift */,
-				19AD2BD405C80FBA944007A93FB7CB7A /* SelectorItemCell.swift */,
-			);
-			path = Classes;
+			path = "RecurrenceRuleUI-iOS";
 			sourceTree = "<group>";
 		};
 		E052C58763F1245908886E27A9FBCB3A /* iOS */ = {
@@ -484,20 +395,76 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EA32B76563D799991779B0B9D8DC7F77 /* Resources */ = {
+		E44D2BD048AD01CC433B6C84202CECAB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				D318AEC476BC025C22EC626550893542 /* RecurrenceRule-iOS */,
+				65AB6CB0B853CE2413C5A9917D80B990 /* MonthOrDaySelectorCell.xib */,
+				71BD7E456FD3E9DDA46DEE5AD0B9F52F /* PickerViewCell.xib */,
+				BFD700509EEA47B54284DC57A220F814 /* RecurrencePicker.xcassets */,
+				9F45205DFDAC573D4D5EBE0EEE0086DD /* SelectorItemCell.xib */,
+				96169391263573E05AC4CB8878C0223B /* LocalizedStrings */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E4E3DBA1BBF43A59101E70D224DE97A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				435F203AD96ABBF37BC15B7B75FA2052 /* nlp.js */,
+				A53A09038350737DF8899C2B695BDAEC /* rrule.js */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		F9CEB49BE3D341B8B7ADF56E9BD237D7 /* RecurrenceRule-iOS */ = {
+		E9A5BDFB8BADF6BBDB3E5B49C2238EBF /* RecurrenceRule-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1032873DC67372D60A8829731BC06A27 /* Classes */,
+				AFEE592E488B45F44C8BBE2B629D73F6 /* BundleHelper.swift */,
+				828B7B7737503A03507AB8338FD98E76 /* EKRecurrenceRule+iCalendar.swift */,
+				A83C74444C1737BF298645BA361EB0B9 /* EKRecurrenceRule+recurrenceRuleFromString.swift */,
+				D264DD797580F9F91B25357502E7A101 /* EKWeekday+RRule.swift */,
+				709B8E8C7FEE58B0EECF769EFD03F3E1 /* ExclusionDate.swift */,
+				E4C797105050695A91012B292E617114 /* Generators.swift */,
+				3B0B6F65C72B7300D7AAAA49915C085F /* InclusionDate.swift */,
+				F324491810790EB2908C6E81C8F65284 /* JavaScriptBridge.swift */,
+				E091BA649C400F531BE6177E63ED0364 /* NSDate+Comparison.swift */,
+				302C3A0F8F511DDC3059A6705F6404D8 /* RecurrenceFrequency.swift */,
+				CED636441261751F61C6F17B502455A6 /* RecurrenceRule.swift */,
+				755AF7E0520B1B4C79C01D04563519AE /* RecurrenceRule+Definition.swift */,
+				9BFC06B850BA1B453F229DCBBD5A4076 /* RecurrenceRule+Generator.swift */,
+				E809B25C0C13377F99A9908619FA8E69 /* RRule.swift */,
+				52B0F4AD51705197CF0249FA4E874D15 /* String+Extension.swift */,
+				E4E3DBA1BBF43A59101E70D224DE97A6 /* Resources */,
+				29DBD2A09D7A0EC91E2CC64ADEDA26C1 /* Support Files */,
 			);
 			path = "RecurrenceRule-iOS";
+			sourceTree = "<group>";
+		};
+		ED58A4D3E4F6EF3165331274540ECD3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCECC1162B541ADCFB72A61FE727F4E9 /* RecurrenceRuleUI-iOS */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5A4EA5FF0CDCB3808DDB5F4BA3CC3BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6FAC97D89C5056881A94EDB539231AB2 /* Constants.swift */,
+				73743BDE4DF999DFB45B1F162A0CC0A7 /* CustomRecurrenceViewController.swift */,
+				090894C8CB506971AF3B36F8303DE377 /* EKWeekday+Sequence.swift */,
+				6032BA0756CF35EB6C581E152B733F43 /* GridSelectorLayout.swift */,
+				793032357AC12B3872DFA50B9107E2B4 /* InternationalControl.swift */,
+				187FB353DA8DE9A0E20DE29FA21E3DEB /* MonthOrDaySelectorCell.swift */,
+				8D8A5143D8BED383F1ED105DB805F052 /* PickerViewCell.swift */,
+				C173C10138A35106E196665E662F30AE /* RecurrenceFrequency+Sequence.swift */,
+				1520BBC8405143014E9415B76EF0305E /* RecurrencePicker.swift */,
+				A223A364401AEEC12D261722211901F2 /* RecurrencePickerDelegate.swift */,
+				4F0F237F750757068D301A2404529F65 /* RecurrenceRule+Text.swift */,
+				2FBA8C138C595442E9C8CE2DAAC2853F /* SelectorItemCell.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -595,7 +562,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D911A5AE888FA2533E6A456A025EFCF1 /* Build configuration list for PBXNativeTarget "RecurrenceRule-iOS" */;
 			buildPhases = (
-				66449E1410361BE01C631BAF0B6B4525 /* Sources */,
+				326F6710F115A408D9A3EBBF3E3593F3 /* Sources */,
 				A06D1FE7558331F958E1D4382D8F59DD /* Frameworks */,
 				A74E4446B16AB8714339B6761659AF19 /* Resources */,
 				4C31B651D0B67C9B814AD40D08029A1D /* Headers */,
@@ -616,7 +583,7 @@
 			buildPhases = (
 				A67174416D035169F574528AD18A0552 /* Sources */,
 				786C17D4C9FB5DF8AB8B6C4A92728208 /* Frameworks */,
-				238C9114F530977AE459E2B9A2EA5F38 /* Resources */,
+				5EB4B1DFC114EB75E658DE0D94BBC6CF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -679,15 +646,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		238C9114F530977AE459E2B9A2EA5F38 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2398DBC1A09D4C1EC9DD79267114FBA1 /* nlp.js in Resources */,
-				74D6C6A81126E24C898C58B917B085F2 /* rrule.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A044FCD3BF073F850EBD359D4FB84AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -697,6 +655,15 @@
 				F3053B9F6E9D660B5D8AEF3D5898774F /* PickerViewCell.xib in Resources */,
 				79331D4FA084F083F9596890C97968CF /* RecurrencePicker.xcassets in Resources */,
 				FD117E8A02287A086BED555FC0FA9492 /* SelectorItemCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB4B1DFC114EB75E658DE0D94BBC6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2880399C13B2EFECC00FF5A99918A4 /* nlp.js in Resources */,
+				5E822305D8C3E8F377CD4159E95BA40A /* rrule.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,26 +706,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66449E1410361BE01C631BAF0B6B4525 /* Sources */ = {
+		326F6710F115A408D9A3EBBF3E3593F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FD480B6D5C14E8EF7742E769A6D7C1 /* BundleHelper.swift in Sources */,
-				E1E27DEDCA1FE1D16C8B975692C7FE98 /* EKRecurrenceRule+iCalendar.swift in Sources */,
-				F55AD07F06B697D170C1ECA5C14FD369 /* EKRecurrenceRule+recurrenceRuleFromString.swift in Sources */,
-				18015B31CC5B8504E78F0C71AAE0D703 /* EKWeekday+RRule.swift in Sources */,
-				9E16FC11ABCBDE67DAED9F896780CBAA /* ExclusionDate.swift in Sources */,
-				C7DAB7737722A5BCAEA44923DCE5584D /* Generators.swift in Sources */,
-				9F7489CB32C6828EFF90A7BFB7DC7CDA /* InclusionDate.swift in Sources */,
-				BD8B6E6364994B597F6F9AC56D00D270 /* JavaScriptBridge.swift in Sources */,
-				B1511F4FEFFA39CC3718414EA7D6EFA1 /* NSDate+Comparison.swift in Sources */,
-				38A244E96D46FBA91B93ED6FBDF134FD /* RecurrenceFrequency.swift in Sources */,
-				708672715FE2E3772494EECC5757EF1F /* RecurrenceRule+Definition.swift in Sources */,
-				D029819F8DADC08EDE01D787ED756714 /* RecurrenceRule+Generator.swift in Sources */,
-				87493A1AC1E3CCE1DFA5FF7D3D612907 /* RecurrenceRule-iOS-dummy.m in Sources */,
-				F0FDB88496CC6AF3E5E0FA82818089DB /* RecurrenceRule.swift in Sources */,
-				8257EB76D0A08A980A824E47F81189DB /* RRule.swift in Sources */,
-				1C1AEC505E1DAD4513FFBBEF93DEFA5D /* String+Extension.swift in Sources */,
+				1D92F4439EEB0313CCAD72746C6F27AA /* BundleHelper.swift in Sources */,
+				437FEA73B4F31DCA84E14111BB4F551F /* EKRecurrenceRule+iCalendar.swift in Sources */,
+				5F3395181A140F019B4BD89403F1526E /* EKRecurrenceRule+recurrenceRuleFromString.swift in Sources */,
+				77BF43F3F9E6884B693A9EA288C00B37 /* EKWeekday+RRule.swift in Sources */,
+				D59063A3C8E74171D383D4ACF0CE345E /* ExclusionDate.swift in Sources */,
+				475D973A8FB4741CDB5DB2C9479C2A1F /* Generators.swift in Sources */,
+				C3B2EC37D5D3C5947B9BD49485386D92 /* InclusionDate.swift in Sources */,
+				3F7B3FDA23D626566E974690131B4E78 /* JavaScriptBridge.swift in Sources */,
+				8D478D758768B9DF865306EE6D94D0D7 /* NSDate+Comparison.swift in Sources */,
+				AE5B1D99C64011CF5A5A1D63F3D72973 /* RecurrenceFrequency.swift in Sources */,
+				16A3EF4835DF9C03AC731AE482B8092F /* RecurrenceRule+Definition.swift in Sources */,
+				3C14EEAC7D7B20D30268E8583DF23B50 /* RecurrenceRule+Generator.swift in Sources */,
+				17ADA65F6613854D44B107DFEFDCD30A /* RecurrenceRule-iOS-dummy.m in Sources */,
+				7FFC48228306418978509CFE68348836 /* RecurrenceRule.swift in Sources */,
+				28B321A34E2520B17F2F71F1FC9C14C5 /* RRule.swift in Sources */,
+				972302975223C0C3E366ABC4E40948C4 /* String+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,10 +795,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		306E80FE264D71428EB2E5E13EA478E1 /* Localizable.strings */ = {
+		2E5D8ADB08B6534E4E397645BC1A197E /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1B7B37907E7837E5CC5078BEE49E12D8 /* Localizable.strings */,
+				831A9EA1966ACFE60EA5D55CA868D40C /* Localizable.strings */,
 			);
 			name = Localizable.strings;
 			path = .;
@@ -880,7 +847,7 @@
 		};
 		37CCF5C9EF8DA5C424CD7CD2F6CA2813 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC6E97951527B9ADBF607CCD7642BA9C /* RecurrenceRuleUI-iOS.xcconfig */;
+			baseConfigurationReference = 7FD6D475ECE5E88AE1667578CA0F7796 /* RecurrenceRuleUI-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -909,7 +876,7 @@
 		};
 		4353596944B722653BAA1CAD29AECEA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7A2A6741994855EDC59A39372C86F91 /* RecurrenceRule-iOS.xcconfig */;
+			baseConfigurationReference = 4D4CBBA1A673FE531F9847E0A6102347 /* RecurrenceRule-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -939,7 +906,7 @@
 		};
 		47851B6DD3BA3D967ACBF1929B04AC78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7A2A6741994855EDC59A39372C86F91 /* RecurrenceRule-iOS.xcconfig */;
+			baseConfigurationReference = 4D4CBBA1A673FE531F9847E0A6102347 /* RecurrenceRule-iOS.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrenceRule-iOS";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1056,7 +1023,7 @@
 		};
 		949F58685745C5FA66E990D05FFB136F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7A2A6741994855EDC59A39372C86F91 /* RecurrenceRule-iOS.xcconfig */;
+			baseConfigurationReference = 4D4CBBA1A673FE531F9847E0A6102347 /* RecurrenceRule-iOS.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrenceRule-iOS";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1073,7 +1040,7 @@
 		};
 		991C5ACB5493AFC7A7F309420E20ABA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC6E97951527B9ADBF607CCD7642BA9C /* RecurrenceRuleUI-iOS.xcconfig */;
+			baseConfigurationReference = 7FD6D475ECE5E88AE1667578CA0F7796 /* RecurrenceRuleUI-iOS.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrenceRuleUI-iOS";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1090,7 +1057,7 @@
 		};
 		9B682CA9AC494CB8A35BC94B6DBBD60D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7A2A6741994855EDC59A39372C86F91 /* RecurrenceRule-iOS.xcconfig */;
+			baseConfigurationReference = 4D4CBBA1A673FE531F9847E0A6102347 /* RecurrenceRule-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1119,7 +1086,7 @@
 		};
 		A781E3AC3F41B9D9EAC69107F4AFC89D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC6E97951527B9ADBF607CCD7642BA9C /* RecurrenceRuleUI-iOS.xcconfig */;
+			baseConfigurationReference = 7FD6D475ECE5E88AE1667578CA0F7796 /* RecurrenceRuleUI-iOS.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrenceRuleUI-iOS";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1136,7 +1103,7 @@
 		};
 		B5A5B94C118D4BB104DEFC32AED98745 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC6E97951527B9ADBF607CCD7642BA9C /* RecurrenceRuleUI-iOS.xcconfig */;
+			baseConfigurationReference = 7FD6D475ECE5E88AE1667578CA0F7796 /* RecurrenceRuleUI-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
