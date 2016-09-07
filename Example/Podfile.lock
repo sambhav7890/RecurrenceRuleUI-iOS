@@ -4,16 +4,19 @@ PODS:
     - RecurrenceRule-iOS
 
 DEPENDENCIES:
+  - RecurrenceRule-iOS (from `../../RecurrenceRule-iOS`)
   - RecurrenceRuleUI-iOS (from `../`)
 
 EXTERNAL SOURCES:
+  RecurrenceRule-iOS:
+    :path: ../../RecurrenceRule-iOS
   RecurrenceRuleUI-iOS:
     :path: ../
 
 SPEC CHECKSUMS:
-  RecurrenceRule-iOS: 23c9affe0035c5054ef92c68c02e9d944e303c96
+  RecurrenceRule-iOS: e8a998fd77d1845dbd53840d5c3cf2f60b9eecba
   RecurrenceRuleUI-iOS: aadb6ba56d63f3a895363e46b5624cf84075253e
 
-PODFILE CHECKSUM: 79edae2b69bb9a59437c6f5dbc158e4830ce75dd
+PODFILE CHECKSUM: 1d678219ef0ddc26db41369e0a9fd5fb71fc2e80
 
 COCOAPODS: 1.0.1
