@@ -1,6 +1,6 @@
 # RecurrenceRuleUI-iOS
 
-[![CI Status](http://img.shields.io/travis/Sambhav Shah/RecurrenceRuleUI-iOS.svg?style=flat)](https://travis-ci.org/Sambhav Shah/RecurrenceRuleUI-iOS)
+[![CI Status](http://img.shields.io/travis/Sambhav Shah/RecurrenceRuleUI-iOS.svg?style=flat)](https://travis-ci.org/sambhav7890/RecurrenceRuleUI-iOS)
 
 ## Example
 
