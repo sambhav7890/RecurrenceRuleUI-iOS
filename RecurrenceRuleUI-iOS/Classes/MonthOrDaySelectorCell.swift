@@ -42,7 +42,7 @@ internal class MonthOrDaySelectorCell: UITableViewCell {
         accessoryType = .None
         selectorView.clipsToBounds = false
         let bundle = NSBundle.recurrencePickerBundle() ?? NSBundle.mainBundle()
-        selectorView.registerNib(UINib(nibName: "SelectorItemCell", bundle: bundle), forCellWithReuseIdentifier: CellID.selectorItemCell)
+        selectorView.registerNib(UINib(nibName: "SelectorItemCell", bundle: bundle), forCellWithReuseIdentifier: CellID.SelectorItemCell)
     }
 
     override func layoutSubviews() {
@@ -68,7 +68,7 @@ extension MonthOrDaySelectorCell {
             }
             
             for sublayer in sublayers {
-                if sublayer.name == Constant.gridLineName {
+                if sublayer.name == Constant.GridLineName {
                     sublayer.removeFromSuperlayer()
                 }
             }
@@ -81,45 +81,45 @@ extension MonthOrDaySelectorCell {
         case .Day:
             // draw vertical lines
             for index in 1...6 {
-                let xPosition = CGFloat(index) * itemSize.width - Constant.gridLineWidth / 2
-                let height = index < 4 ? (itemSize.height * CGFloat(5) + Constant.gridLineWidth) : (itemSize.height * CGFloat(4) + Constant.gridLineWidth)
-                let lineFrame = CGRect(x: xPosition, y: Constant.selectorVerticalPadding - Constant.gridLineWidth / 2, width: Constant.gridLineWidth, height: height)
+                let xPosition = CGFloat(index) * itemSize.width - Constant.GridLineWidth / 2
+                let height = index < 4 ? (itemSize.height * CGFloat(5) + Constant.GridLineWidth) : (itemSize.height * CGFloat(4) + Constant.GridLineWidth)
+                let lineFrame = CGRect(x: xPosition, y: Constant.SelectorVerticalPadding - Constant.GridLineWidth / 2, width: Constant.GridLineWidth, height: height)
                 let line = CAShapeLayer()
-                line.name = Constant.gridLineName
+                line.name = Constant.GridLineName
                 line.frame = lineFrame
-                line.backgroundColor = Constant.gridLineColor.CGColor
+                line.backgroundColor = Constant.GridLineColor.CGColor
                 layer.addSublayer(line)
             }
             // draw horizontal lines
             for index in 0...5 {
-                let yPosition = Constant.selectorVerticalPadding + CGFloat(index) * itemSize.height - Constant.gridLineWidth / 2
-                let width = index < 5 ? frame.width : (itemSize.width * CGFloat(3) + Constant.gridLineWidth / 2)
-                let lineFrame = CGRect(x: 0, y: yPosition, width: width, height: Constant.gridLineWidth)
+                let yPosition = Constant.SelectorVerticalPadding + CGFloat(index) * itemSize.height - Constant.GridLineWidth / 2
+                let width = index < 5 ? frame.width : (itemSize.width * CGFloat(3) + Constant.GridLineWidth / 2)
+                let lineFrame = CGRect(x: 0, y: yPosition, width: width, height: Constant.GridLineWidth)
                 let line = CAShapeLayer()
-                line.name = Constant.gridLineName
+                line.name = Constant.GridLineName
                 line.frame = lineFrame
-                line.backgroundColor = Constant.gridLineColor.CGColor
+                line.backgroundColor = Constant.GridLineColor.CGColor
                 layer.addSublayer(line)
             }
         case .Month:
             // draw vertical lines
             for index in 1...3 {
-                let xPosition = CGFloat(index) * itemSize.width - Constant.gridLineWidth / 2
-                let lineFrame = CGRect(x: xPosition, y: Constant.selectorVerticalPadding - Constant.gridLineWidth / 2, width: Constant.gridLineWidth, height: (itemSize.height * CGFloat(3) + Constant.gridLineWidth))
+                let xPosition = CGFloat(index) * itemSize.width - Constant.GridLineWidth / 2
+                let lineFrame = CGRect(x: xPosition, y: Constant.SelectorVerticalPadding - Constant.GridLineWidth / 2, width: Constant.GridLineWidth, height: (itemSize.height * CGFloat(3) + Constant.GridLineWidth))
                 let line = CAShapeLayer()
-                line.name = Constant.gridLineName
+                line.name = Constant.GridLineName
                 line.frame = lineFrame
-                line.backgroundColor = Constant.gridLineColor.CGColor
+                line.backgroundColor = Constant.GridLineColor.CGColor
                 layer.addSublayer(line)
             }
             // draw horizontal lines
             for index in 0...3 {
-                let yPosition = Constant.selectorVerticalPadding + CGFloat(index) * itemSize.height - Constant.gridLineWidth / 2
-                let lineFrame = CGRect(x: 0, y: yPosition, width: frame.width, height: Constant.gridLineWidth)
+                let yPosition = Constant.SelectorVerticalPadding + CGFloat(index) * itemSize.height - Constant.GridLineWidth / 2
+                let lineFrame = CGRect(x: 0, y: yPosition, width: frame.width, height: Constant.GridLineWidth)
                 let line = CAShapeLayer()
-                line.name = Constant.gridLineName
+                line.name = Constant.GridLineName
                 line.frame = lineFrame
-                line.backgroundColor = Constant.gridLineColor.CGColor
+                line.backgroundColor = Constant.GridLineColor.CGColor
                 layer.addSublayer(line)
             }
         }
@@ -136,7 +136,7 @@ extension MonthOrDaySelectorCell: UICollectionViewDataSource, UICollectionViewDe
     }
 
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(CellID.selectorItemCell, forIndexPath: indexPath) as! SelectorItemCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(CellID.SelectorItemCell, forIndexPath: indexPath) as! SelectorItemCell
 
         cell.tintColor = tintColor
         switch style {

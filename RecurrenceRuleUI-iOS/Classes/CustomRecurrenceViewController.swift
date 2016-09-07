@@ -113,8 +113,8 @@ extension CustomRecurrenceViewController {
     }
 
     private func updateDetailTextColor() {
-        frequencyCell?.detailTextLabel?.textColor = isShowingFrequencyPicker ? tintColor : Constant.detailTextColor
-        intervalCell?.detailTextLabel?.textColor = isShowingIntervalPicker ? tintColor : Constant.detailTextColor
+        frequencyCell?.detailTextLabel?.textColor = isShowingFrequencyPicker ? tintColor : Constant.DetailTextColor
+        intervalCell?.detailTextLabel?.textColor = isShowingIntervalPicker ? tintColor : Constant.DetailTextColor
     }
 
     private func updateFrequencyCellText() {
@@ -158,14 +158,14 @@ extension CustomRecurrenceViewController {
 
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if isPickerViewCell(indexPath) {
-            return Constant.pickerViewCellHeight
+            return Constant.PickerViewCellHeight
         } else if isSelectorViewCell(indexPath) {
             let style: MonthOrDaySelectorStyle = recurrenceRule.frequency == .Monthly ? .Day : .Month
             let itemHeight = GridSelectorLayout.itemSizeWithStyle(style, selectorViewWidth: tableView.frame.width).height
             let itemCount: CGFloat = style == .Day ? 5 : 3
-            return ceil(itemHeight * itemCount) + Constant.selectorVerticalPadding * CGFloat(2)
+            return ceil(itemHeight * itemCount) + Constant.SelectorVerticalPadding * CGFloat(2)
         }
-        return Constant.defaultRowHeight
+        return Constant.DefaultRowHeight
     }
 
     override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
@@ -177,7 +177,7 @@ extension CustomRecurrenceViewController {
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         if isPickerViewCell(indexPath) {
-            let cell = tableView.dequeueReusableCellWithIdentifier(CellID.pickerViewCell, forIndexPath: indexPath) as! PickerViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier(CellID.PickerViewCell, forIndexPath: indexPath) as! PickerViewCell
             cell.delegate = self
 
             cell.style = pickerViewStyle
@@ -186,7 +186,7 @@ extension CustomRecurrenceViewController {
 
             return cell
         } else if isSelectorViewCell(indexPath) {
-            let cell = tableView.dequeueReusableCellWithIdentifier(CellID.monthOrDaySelectorCell, forIndexPath: indexPath) as! MonthOrDaySelectorCell
+            let cell = tableView.dequeueReusableCellWithIdentifier(CellID.MonthOrDaySelectorCell, forIndexPath: indexPath) as! MonthOrDaySelectorCell
             cell.delegate = self
 
             cell.tintColor = tintColor
@@ -196,27 +196,27 @@ extension CustomRecurrenceViewController {
 
             return cell
         } else if indexPath.section == 0 {
-            var cell = tableView.dequeueReusableCellWithIdentifier(CellID.customRecurrenceViewCell)
+            var cell = tableView.dequeueReusableCellWithIdentifier(CellID.CustomRecurrenceViewCell)
             if cell == nil {
-                cell = UITableViewCell(style: .Value1, reuseIdentifier: CellID.customRecurrenceViewCell)
+                cell = UITableViewCell(style: .Value1, reuseIdentifier: CellID.CustomRecurrenceViewCell)
             }
             cell?.accessoryType = .None
 
             if indexPath.row == 0 {
                 cell?.textLabel?.text = LocalizedString(key: "PresetRecurrnece.TextLabel.Frequency")
                 cell?.detailTextLabel?.text = Constant.frequencyStrings()[recurrenceRule.frequency.number]
-                cell?.detailTextLabel?.textColor = isShowingFrequencyPicker ? tintColor : Constant.detailTextColor
+                cell?.detailTextLabel?.textColor = isShowingFrequencyPicker ? tintColor : Constant.DetailTextColor
             } else {
                 cell?.textLabel?.text = LocalizedString(key: "PresetRecurrnece.TextLabel.Interval")
                 cell?.detailTextLabel?.text = unitStringForIntervalCell()
-                cell?.detailTextLabel?.textColor = isShowingIntervalPicker ? tintColor : Constant.detailTextColor
+                cell?.detailTextLabel?.textColor = isShowingIntervalPicker ? tintColor : Constant.DetailTextColor
             }
 
             return cell!
         } else {
-            var cell = tableView.dequeueReusableCellWithIdentifier(CellID.commonCell)
+            var cell = tableView.dequeueReusableCellWithIdentifier(CellID.CommonCell)
             if cell == nil {
-                cell = UITableViewCell(style: .Default, reuseIdentifier: CellID.commonCell)
+                cell = UITableViewCell(style: .Default, reuseIdentifier: CellID.CommonCell)
             }
 
             cell?.textLabel?.text = Constant.weekdaySymbols()[indexPath.row]
@@ -318,8 +318,8 @@ extension CustomRecurrenceViewController {
         }
 
         let bundle = NSBundle.recurrencePickerBundle() ?? NSBundle.mainBundle()
-        tableView.registerNib(UINib(nibName: "PickerViewCell", bundle: bundle), forCellReuseIdentifier: CellID.pickerViewCell)
-        tableView.registerNib(UINib(nibName: "MonthOrDaySelectorCell", bundle: bundle), forCellReuseIdentifier: CellID.monthOrDaySelectorCell)
+        tableView.registerNib(UINib(nibName: "PickerViewCell", bundle: bundle), forCellReuseIdentifier: CellID.PickerViewCell)
+        tableView.registerNib(UINib(nibName: "MonthOrDaySelectorCell", bundle: bundle), forCellReuseIdentifier: CellID.MonthOrDaySelectorCell)
     }
 }
 

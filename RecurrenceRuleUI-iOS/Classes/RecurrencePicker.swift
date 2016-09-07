@@ -78,14 +78,14 @@ extension RecurrencePicker {
 
     public override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            return Constant.BasicRecurrenceStrings().count
+            return Constant.basicRecurrenceStrings().count
         } else {
             return 1
         }
     }
 
     public override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return Constant.defaultRowHeight
+        return Constant.DefaultRowHeight
     }
 
     public override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
@@ -100,7 +100,7 @@ extension RecurrencePicker {
 
         if indexPath.section == 0 {
             cell?.accessoryType = .None
-            cell?.textLabel?.text = Constant.BasicRecurrenceStrings()[indexPath.row]
+            cell?.textLabel?.text = Constant.basicRecurrenceStrings()[indexPath.row]
         } else {
             cell?.accessoryType = .DisclosureIndicator
             cell?.textLabel?.text = LocalizedString(key: "RecurrencePicker.TextLabel.Custom")

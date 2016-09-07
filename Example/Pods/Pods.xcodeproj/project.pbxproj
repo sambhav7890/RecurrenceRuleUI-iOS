@@ -46,7 +46,7 @@
 		C2E5D0BB6FF868341BD50E9D67C0C0CB /* RecurrencePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E79CDE6AB063AB6EE4666B7135AF4 /* RecurrencePicker.swift */; };
 		C70B330724C448365B35F76813B69558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB63C6427774FFC34FC20FE8A17056E /* Foundation.framework */; };
 		CBA3AD33EF60A14BE8225CA5E4D501C9 /* PickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA626431D3E8A7081824BD091545BBE9 /* PickerViewCell.swift */; };
-		DC4A7F5D9124489BBFEAAC1AF394185C /* RecurrencePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = E97038DF49E83FFD0C5A9104DCBFEFEE /* RecurrencePicker.strings */; };
+		DC4A7F5D9124489BBFEAAC1AF394185C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E97038DF49E83FFD0C5A9104DCBFEFEE /* Localizable.strings */; };
 		E0DCF044A42E3A4DC52E7DE0FD086F89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9E639EF5887A089FC0F0E47F1D6E31 /* Constants.swift */; };
 		E57411B8A2C5B2399E4DF9F483362B5B /* RecurrenceRuleUI-iOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E7A6F24177325AC8A7CFF3086741185 /* RecurrenceRuleUI-iOS.bundle */; };
 		EEF810EEE675305DBFBD6E9A9CF91F0E /* RecurrenceRule+Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B9A73703119E1EAD5759468B633F3E /* RecurrenceRule+Definition.swift */; };
@@ -124,7 +124,7 @@
 		4619FD4996FF173808CEBFDD8A6C60B7 /* RecurrenceRuleUI_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecurrenceRuleUI_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4658DF773161A5A42A8D75A2FC3962C5 /* Pods-RecurrenceRuleUI-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrenceRuleUI-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E17ACFBA02278EE626E57AF5EB0371F /* EKRecurrenceRule+recurrenceRuleFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKRecurrenceRule+recurrenceRuleFromString.swift"; path = "RecurrenceRule-iOS/Classes/EKRecurrenceRule+recurrenceRuleFromString.swift"; sourceTree = "<group>"; };
-		4E735C7F21713EB5F35D4FEA67E9FDE2 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = en.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
+		4E735C7F21713EB5F35D4FEA67E9FDE2 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		52FE1B989E2681BA7F877C0441F593C7 /* ExclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExclusionDate.swift; path = "RecurrenceRule-iOS/Classes/ExclusionDate.swift"; sourceTree = "<group>"; };
 		5E4EC39648E8EAE62F736586E5F8B94E /* ResourceBundle-RecurrenceRuleUI-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecurrenceRuleUI-iOS-Info.plist"; sourceTree = "<group>"; };
 		5F3F339094ECBD61BD8001188BA36A2B /* NSDate+Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Comparison.swift"; path = "RecurrenceRule-iOS/Classes/NSDate+Comparison.swift"; sourceTree = "<group>"; };
@@ -247,7 +247,7 @@
 		34CF9FE83F4A4113160CBCD69524F5CA /* LocalizedStrings */ = {
 			isa = PBXGroup;
 			children = (
-				E97038DF49E83FFD0C5A9104DCBFEFEE /* RecurrencePicker.strings */,
+				E97038DF49E83FFD0C5A9104DCBFEFEE /* Localizable.strings */,
 			);
 			path = LocalizedStrings;
 			sourceTree = "<group>";
@@ -669,7 +669,7 @@
 			files = (
 				0AF7C41C3FA9C8AB56E738BF3D57187B /* MonthOrDaySelectorCell.xib in Resources */,
 				8F788C80BFA37987E094A6723BB51283 /* PickerViewCell.xib in Resources */,
-				DC4A7F5D9124489BBFEAAC1AF394185C /* RecurrencePicker.strings in Resources */,
+				DC4A7F5D9124489BBFEAAC1AF394185C /* Localizable.strings in Resources */,
 				93AB19EB65C8564A812D58504AAF2BFF /* RecurrencePicker.xcassets in Resources */,
 				22586C50919C3498C347B78238479C39 /* SelectorItemCell.xib in Resources */,
 			);
@@ -795,12 +795,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E97038DF49E83FFD0C5A9104DCBFEFEE /* RecurrencePicker.strings */ = {
+		E97038DF49E83FFD0C5A9104DCBFEFEE /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4E735C7F21713EB5F35D4FEA67E9FDE2 /* RecurrencePicker.strings */,
 			);
-			name = RecurrencePicker.strings;
+			name = Localizable.strings;
 			path = .;
 			sourceTree = "<group>";
 		};

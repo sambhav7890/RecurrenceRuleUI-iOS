@@ -9,7 +9,7 @@
 "PickerFrequency.Daily" = "Daily";
 "PickerFrequency.Weekly" = "Weekly";
 "PickerFrequency.Monthly" = "Monthly";
-"frequency.yearly" = "Yearly";
+"PickerFrequency.Yearly" = "Yearly";
 
 "PickerFrequencyUnit.Day" = "Day";
 "PickerFrequencyUnit.Week" = "Week";

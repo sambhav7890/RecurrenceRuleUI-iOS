@@ -11,25 +11,25 @@ import EventKit
 import RecurrenceRule_iOS
 
 internal struct CellID {
-    static let commonCell = "CommonCell"
-    static let basicRecurrenceCell = "BasicRecurrenceCell"
-    static let customRecurrenceViewCell = "CustomRecurrenceViewCell"
-    static let pickerViewCell = "PickerViewCell"
-    static let selectorItemCell = "SelectorItemCell"
-    static let monthOrDaySelectorCell = "MonthOrDaySelectorCell"
+    static let CommonCell = "CommonCell"
+    static let BasicRecurrenceCell = "BasicRecurrenceCell"
+    static let CustomRecurrenceViewCell = "CustomRecurrenceViewCell"
+    static let PickerViewCell = "PickerViewCell"
+    static let SelectorItemCell = "SelectorItemCell"
+    static let MonthOrDaySelectorCell = "MonthOrDaySelectorCell"
 }
 
 internal struct Constant {
-    static let defaultRowHeight: CGFloat = 44
-    static let pickerViewCellHeight: CGFloat = 215
-    static let pickerRowHeight: CGFloat = 40
-    static let pickerMaxRowCount = 999
-    static let detailTextColor = UIColor.grayColor()
+    static let DefaultRowHeight: CGFloat = 44
+    static let PickerViewCellHeight: CGFloat = 215
+    static let PickerRowHeight: CGFloat = 40
+    static let PickerMaxRowCount = 999
+    static let DetailTextColor = UIColor.grayColor()
 
-    static let selectorVerticalPadding: CGFloat = 1
-    static let gridLineWidth: CGFloat = 0.5
-    static let gridLineColor = UIColor(white: 187.0 / 255.0, alpha: 1)
-    static let gridLineName = "RecurrencePicker.GridSelectorViewGridLine"
+    static let SelectorVerticalPadding: CGFloat = 1
+    static let GridLineWidth: CGFloat = 0.5
+    static let GridLineColor = UIColor(white: 187.0 / 255.0, alpha: 1)
+    static let GridLineName = "RecurrencePicker.GridSelectorViewGridLine"
 }
 
 internal extension Constant {
@@ -75,7 +75,7 @@ internal extension Constant {
         return [internationalControl.localizedString(key: "PickerFrequency.Daily"),
                 internationalControl.localizedString(key: "PickerFrequency.Weekly"),
                 internationalControl.localizedString(key: "PickerFrequency.Monthly"),
-                internationalControl.localizedString(key: "frequency.yearly"),]
+                internationalControl.localizedString(key: "PickerFrequency.Yearly"),]
     }
 
     static func unitStrings(language language: RecurrencePickerLanguage = InternationalControl.sharedControl.language) -> [String] {

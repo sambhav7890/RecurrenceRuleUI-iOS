@@ -8,6 +8,8 @@
 
 import Foundation
 
+private let Framework = "RecurrenceRuleUI-iOS"
+
 public enum RecurrencePickerLanguage {
     case English
 
@@ -34,12 +36,14 @@ internal class InternationalControl: NSObject {
 	}
 
     internal func localizedString(key key: String, comment: String? = nil) -> String {
-        let path = NSBundle.recurrencePickerBundle()?.pathForResource(language.identifier, ofType: "lproj") ?? NSBundle.mainBundle().pathForResource(language.identifier, ofType: "lproj")
-        guard let localizationPath = path else {
-            return key
-        }
-        let bundle = NSBundle(path: localizationPath)
-        return bundle?.localizedStringForKey(key, value: nil, table: "RecurrencePicker") ?? key
+
+		let path = NSBundle.recurrencePickerBundle()?.pathForResource(language.identifier, ofType: "lproj") ?? NSBundle.mainBundle().pathForResource(language.identifier, ofType: "lproj")
+
+		guard let localizationPath = path else { return key }
+
+		guard let bundle = NSBundle(path: localizationPath) else { return key }
+
+		return NSLocalizedString(key, tableName: nil, bundle: bundle, value: key, comment: key)
     }
 }
 
@@ -47,7 +51,7 @@ internal class InternationalControl: NSObject {
 extension NSBundle {
 	static func recurrencePickerBundle() -> NSBundle? {
 		let podBundle = NSBundle(forClass: InternationalControl.self)
-		guard let bundleURL = podBundle.URLForResource("RecurrencePicker", withExtension: "bundle") else { return nil }
+		guard let bundleURL = podBundle.URLForResource(Framework, withExtension: "bundle") else { return nil }
 		guard let bundle = NSBundle(URL: bundleURL) else { return nil }
 		return bundle
 	}

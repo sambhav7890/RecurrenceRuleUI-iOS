@@ -65,7 +65,7 @@ extension PickerViewCell: UIPickerViewDataSource, UIPickerViewDelegate {
             return Constant.frequencies.count
         case .Interval:
             if component == 0 {
-                return Constant.pickerMaxRowCount
+                return Constant.PickerMaxRowCount
             } else {
                 return 1
             }
@@ -87,7 +87,7 @@ extension PickerViewCell: UIPickerViewDataSource, UIPickerViewDelegate {
     }
 
     func pickerView(pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
-        return Constant.pickerRowHeight
+        return Constant.PickerRowHeight
     }
 
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
