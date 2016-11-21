@@ -7,17 +7,14 @@
 //
 
 import UIKit
-import RecurrenceRule_iOS
-import RecurrenceRuleUI_iOS
+import RecurrenceRule-UI
 
 private let kBlueColor = UIColor(red: 3.0 / 255.0, green: 169.0 / 255.0, blue: 244.0 / 255.0, alpha: 1.0)
 
 class ViewController: UIViewController {
 	var recurrenceRule: RecurrenceRule?
 	var language: RecurrencePickerLanguage = .English
-	var occurrenceDate: NSDate {
-		return datePicker.date
-	}
+	var occurrenceDate: Date { return datePicker.date }
 
 	@IBOutlet weak var resultTextView: UITextView!
 	@IBOutlet weak var datePicker: UIDatePicker!
@@ -29,7 +26,7 @@ class ViewController: UIViewController {
 	}
 
 	// MARK: - Helper
-	private func updateResultTextView() {
+	fileprivate func updateResultTextView() {
 		if let recurrenceRule = recurrenceRule {
 			resultTextView.text = recurrenceRule.toRRuleString() + "\r\r" + (recurrenceRule.toText(language: language, occurrenceDate: occurrenceDate) ?? "")
 		} else {
@@ -38,7 +35,7 @@ class ViewController: UIViewController {
 	}
 
 	// MARK: - Actions
-	@IBAction func pickButtonTapped(sender: UIButton) {
+	@IBAction func pickButtonTapped(_ sender: UIButton) {
 		let recurrencePicker = RecurrencePicker(recurrenceRule: recurrenceRule)
 		recurrencePicker.tintColor = kBlueColor
 		recurrencePicker.language = language
@@ -49,15 +46,14 @@ class ViewController: UIViewController {
 		navigationController?.pushViewController(recurrencePicker, animated: true)
 	}
 
-	@IBAction func datePickerPicked(sender: UIDatePicker) {
+	@IBAction func datePickerPicked(_ sender: UIDatePicker) {
 		print("Occurrence Date: \(sender.date)")
 		updateResultTextView()
 	}
-
 }
 
 extension ViewController: RecurrencePickerDelegate {
-	func recurrencePicker(picker: RecurrencePicker, didPickRecurrence recurrenceRule: RecurrenceRule?) {
+	func recurrencePicker(_ picker: RecurrencePicker, didPickRecurrence recurrenceRule: RecurrenceRule?) {
 		self.recurrenceRule = recurrenceRule
 		updateResultTextView()
 	}

@@ -2,13 +2,28 @@ use_frameworks!
 
 source 'https://github.com/practo/practo-specs.git'
 
-target 'RecurrenceRuleUI-iOS_Example' do
-	pod 'RecurrenceRuleUI-iOS', :path => '../'
-	pod 'RecurrenceRule-iOS', :git => 'https://github.com/practo/RecurrenceRule-iOS.git'
+pod 'RecurrenceRuleUI-iOS', :path => '../'
+pod 'RecurrenceRule-iOS', :git => 'https://github.com/practo/RecurrenceRule-iOS.git'
 
-  target 'RecurrenceRuleUI-iOS_Tests' do
-    inherit! :search_paths
+#####
+# Post Install Script
+#####
 
-    
-  end
+post_install do |installer|
+
+	#-- Post Install Start --
+
+	installer.pods_project.targets.each do |target|
+		target.build_configurations.each do |config|
+
+			#Fix for Swift 3
+			config.build_settings['SWIFT_VERSION'] = '3.0'
+
+			#Fix for bitcode
+			config.build_settings['ENABLE_BITCODE'] = 'NO'
+		end
+	end
+
+	#-- Post Install End --
+
 end
