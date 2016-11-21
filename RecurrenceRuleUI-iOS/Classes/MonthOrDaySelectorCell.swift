@@ -48,7 +48,7 @@ internal class MonthOrDaySelectorCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         for subview in subviews {
-            if NSStringFromClass(subview.dynamicType) == "_UITableViewCellSeparatorView" {
+            if NSStringFromClass(type(of: subview)) == "_UITableViewCellSeparatorView" {
                 subview.removeFromSuperview()
             }
         }
