@@ -2,8 +2,13 @@ use_frameworks!
 
 source 'https://github.com/practo/practo-specs.git'
 
+target 'RRUIExample' do
+
 pod 'RecurrenceRuleUI-iOS', :path => '../'
 pod 'RecurrenceRule-iOS', :git => 'https://github.com/practo/RecurrenceRule-iOS.git'
+
+end
+
 
 #####
 # Post Install Script
