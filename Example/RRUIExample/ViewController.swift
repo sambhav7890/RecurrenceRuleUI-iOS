@@ -49,6 +49,10 @@ class ViewController: UIViewController {
 		navigationController?.pushViewController(recurrencePicker, animated: true)
     }
 
+	@IBAction func aButtonTapped(_ sender: AnyObject) {
+		updateResultTextView()
+	}
+
     @IBAction func datePickerPicked(_ sender: UIDatePicker) {
         print("Occurrence Date: \(sender.date)")
         updateResultTextView()

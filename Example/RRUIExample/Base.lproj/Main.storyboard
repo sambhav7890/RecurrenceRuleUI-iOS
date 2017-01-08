@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="l91-PF-cX9">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RRUIExample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,90 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="GCH-6a-ddF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="wBI-Id-FGS"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="505557837.56054598">
+                                    <!--2017-01-08 08:43:57 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="datePickerPicked:" destination="BYZ-38-t0r" eventType="valueChanged" id="yOg-FX-sxK"/>
+                                </connections>
+                            </datePicker>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8oO-IC-rra">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="CSC-kP-lTt"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfP-hj-zBj">
+                                <state key="normal" title="Change RRule"/>
+                                <connections>
+                                    <action selector="pickButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F6N-pQ-Xed"/>
+                                </connections>
+                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vk4-gm-sym">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ck7-Zf-QVz"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Item" id="npT-CD-8uQ">
+                                        <connections>
+                                            <action selector="aButtonTapped:" destination="BYZ-38-t0r" id="9y0-fB-ITQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8oO-IC-rra" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="3KI-MW-Y8O"/>
+                            <constraint firstItem="Vk4-gm-sym" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DP1-6P-8Of"/>
+                            <constraint firstItem="8oO-IC-rra" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="FoC-sz-P6N"/>
+                            <constraint firstItem="GCH-6a-ddF" firstAttribute="top" secondItem="Vk4-gm-sym" secondAttribute="bottom" id="GyU-ar-z2M"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gfP-hj-zBj" secondAttribute="trailing" constant="8" id="HC6-vw-Mhp"/>
+                            <constraint firstItem="GCH-6a-ddF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MTW-rM-nQQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8oO-IC-rra" secondAttribute="trailing" constant="8" id="Qlc-2h-mfH"/>
+                            <constraint firstAttribute="trailing" secondItem="Vk4-gm-sym" secondAttribute="trailing" id="X6l-XR-UL4"/>
+                            <constraint firstAttribute="trailing" secondItem="GCH-6a-ddF" secondAttribute="trailing" id="aHa-Q6-bH9"/>
+                            <constraint firstItem="Vk4-gm-sym" firstAttribute="top" secondItem="gfP-hj-zBj" secondAttribute="bottom" id="b5o-ue-fgy"/>
+                            <constraint firstItem="gfP-hj-zBj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="crU-lH-1Sv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GCH-6a-ddF" secondAttribute="bottom" constant="8" id="eS2-48-cjH"/>
+                            <constraint firstItem="gfP-hj-zBj" firstAttribute="top" secondItem="8oO-IC-rra" secondAttribute="bottom" id="wZF-iz-1dM"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="DAX-bG-dTE"/>
+                    <connections>
+                        <outlet property="datePicker" destination="GCH-6a-ddF" id="z9t-mA-NcO"/>
+                        <outlet property="resultTextView" destination="8oO-IC-rra" id="vWh-za-B5A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="910" y="-599"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZQO-ng-96d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="l91-PF-cX9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6e7-gM-AKw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nps-A2-4Rc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jbM-wO-J0I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="-598.65067466266873"/>
         </scene>
     </scenes>
 </document>
