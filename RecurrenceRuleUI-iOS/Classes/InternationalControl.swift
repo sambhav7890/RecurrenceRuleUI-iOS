@@ -11,48 +11,47 @@ import Foundation
 private let Framework = "RecurrenceRuleUI-iOS"
 
 public enum RecurrencePickerLanguage {
-    case English
-
+    case english
     internal var identifier: String {
         switch self {
-        case .English: return "en"
+        case .english: return "en"
         }
     }
 }
 
-internal func LocalizedString(key key: String, comment: String? = nil) -> String {
-    return InternationalControl.sharedControl.localizedString(key: key, comment: comment)
+internal func LocalizedString(_ key: String, comment: String? = nil) -> String {
+    return InternationalControl.sharedControl.localizedString(key, comment: comment)
 }
 
 internal class InternationalControl: NSObject {
 
     internal static var sharedControl = InternationalControl()
-    internal var language: RecurrencePickerLanguage = .English
+    internal var language: RecurrencePickerLanguage = .english
 
-	convenience init(language: RecurrencePickerLanguage) {
+	convenience init(_ language: RecurrencePickerLanguage = RecurrencePickerLanguage.english) {
 		self.init()
 		self.language = language
 		InternationalControl.sharedControl = self
 	}
 
-    internal func localizedString(key key: String, comment: String? = nil) -> String {
+    internal func localizedString(_ key: String, comment: String? = nil) -> String {
 
-		let path = NSBundle.recurrencePickerBundle()?.pathForResource(language.identifier, ofType: "lproj") ?? NSBundle.mainBundle().pathForResource(language.identifier, ofType: "lproj")
+		let path = Bundle.recurrencePickerBundle()?.path(forResource: language.identifier, ofType: "lproj") ?? Bundle.main.path(forResource: language.identifier, ofType: "lproj")
 
 		guard let localizationPath = path else { return key }
 
-		guard let bundle = NSBundle(path: localizationPath) else { return key }
+		guard let bundle = Bundle(path: localizationPath) else { return key }
 
 		return NSLocalizedString(key, tableName: nil, bundle: bundle, value: key, comment: key)
     }
 }
 
 
-extension NSBundle {
-	static func recurrencePickerBundle() -> NSBundle? {
-		let podBundle = NSBundle(forClass: InternationalControl.self)
-		guard let bundleURL = podBundle.URLForResource(Framework, withExtension: "bundle") else { return nil }
-		guard let bundle = NSBundle(URL: bundleURL) else { return nil }
+extension Bundle {
+	static func recurrencePickerBundle() -> Bundle? {
+		let podBundle = Bundle(for: InternationalControl.self)
+		guard let bundleURL = podBundle.url(forResource: Framework, withExtension: "bundle") else { return nil }
+		guard let bundle = Bundle(url: bundleURL) else { return nil }
 		return bundle
 	}
 }

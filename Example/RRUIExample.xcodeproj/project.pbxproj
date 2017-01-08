@@ -221,17 +221,20 @@
 					97E7CF001DE312CA0059C146 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = EQE3C268Q6;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					97E7CF141DE312CA0059C146 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = EQE3C268Q6;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 97E7CF001DE312CA0059C146;
 					};
 					97E7CF1F1DE312CA0059C146 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = EQE3C268Q6;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 97E7CF001DE312CA0059C146;
 					};

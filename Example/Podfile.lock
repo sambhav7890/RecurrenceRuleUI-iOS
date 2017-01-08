@@ -1,5 +1,5 @@
 PODS:
-  - RecurrenceRule-iOS (0.1.1)
+  - RecurrenceRule-iOS (0.1.3)
   - RecurrenceRuleUI-iOS (0.1.0):
     - RecurrenceRule-iOS
 
@@ -15,11 +15,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   RecurrenceRule-iOS:
-    :commit: 47565d511b828a5f0ced591efe032ddc58291c95
+    :commit: 70b78f0aae222f8520511126be93ee1294d62b78
     :git: https://github.com/practo/RecurrenceRule-iOS.git
 
 SPEC CHECKSUMS:
-  RecurrenceRule-iOS: c04b3de1d5aad6e385168499efbcd1a8f910db3a
+  RecurrenceRule-iOS: 8619edd06af4e54f41a593bf6a0014d7787d43af
   RecurrenceRuleUI-iOS: aadb6ba56d63f3a895363e46b5624cf84075253e
 
 PODFILE CHECKSUM: 277838d5f8be61a580412c6726214c159f3f10eb
